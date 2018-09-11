@@ -31,10 +31,5 @@ MongoClient.connect('mongodb://localhost:27017/TodoApp', (error, client) => {
     });
 
 
-
-
-
-
-
     client.close();
 });
